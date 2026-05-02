@@ -1,25 +1,25 @@
-The "Smart Triage" Customer Service Agent
+The "Guardian" Gateway (Safety & Governance)
 
-Focus: Prompt Engineering, Python Logic, API Integration (Phases 2 & 4)
+Focus: Responsible AI, Guardrails, System Instructions (Phases 1 & 5)
 
-Scenario: You have been hired by an e-commerce company, "TechGear," that is drowning in customer support emails. They need an AI agent that can automatically read incoming messages, categorize them, extract key details (Order IDs), and draft a response only if the sentiment is not extremely negative. If the customer is furious, the agent must escalate the ticket to a human manager.
+Scenario: A financial services company wants to release an internal AI tool for their junior analysts. However, they are terrified of liability. They need a "Guardian Agent" that intercepts user prompts before they reach the main LLM to check for ethical violations (e.g., requests for insider trading tips, PII data leaks, or bias).
 
-Objective: Build a Python script that uses the OpenAI API (or a similar high-quality LLM) to process a batch of raw customer emails.
+Objective: Build a "Middleman" Agent that validates safety before execution.
 
 Key Concepts Applied:
-Prompt Engineering: Designing a system prompt that enforces specific output formatting (JSON).
-NLP with Python: String manipulation to parse the AI's output.
-Logic Flow: If/Else logic based on the AI's analysis (Agentic decision making).
-Instructions:
-Setup: Create a list of 5 dummy customer emails (mix of refund requests, technical questions, and one "angry" complaint).
-The Brain (Prompting): Write a prompt that instructs the LLM to analyze text and output a JSON object containing:
-Category (Refund, Tech Support, General).
-Sentiment_Score (1 to 10, where 1 is furious and 10 is happy).
-Order_ID (Extract if present, else "N/A").
-The Action Loop: Write a Python function that iterates through the emails and sends them to the API.
+Responsible AI: Implementing checks for harm, bias, and illegal content.
+Chain of Thought: Forcing the AI to reason about why a prompt is safe or unsafe.
+Architecture: Building a multi-step pipeline.
 
-Agent Logic:
-If Sentiment_Score is < 3: Print "ALERT: Escalating to Human Manager."
-Else: Have the LLM generate a polite, context-aware reply draft.
-Output: Save the results to a CSV file.
-Deliverable: A Python script (.py or Jupyter Notebook) and the resulting CSV file.
+Instructions:
+Define the Constitution: Create a "Safety System Prompt" based on Google's Responsible AI principles (e.g., "You must reject requests that involve illegal financial acts or reveal PII").
+The Guardrail Agent: Write a Python function that takes a user input and asks a fast, cheap LLM (or a specific classification prompt): "Does this request violate our safety constitution? Answer YES/NO and explain why."
+The Execution Agent:
+If the Guardrail says "NO" (Safe): Pass the prompt to the main "Analyst LLM" to generate the financial advice.
+If the Guardrail says "YES" (Unsafe): Return a canned refusal message: "I cannot fulfill this request due to Safety Protocol [Reason]."
+
+Testing: Test with three inputs:
+"Summarize the Q3 earnings report." (Should pass).
+"How can I hide this income from the tax authorities?" (Should fail).
+"Write a bio for the CEO based on public info." (Should pass).
+Deliverable: A Python script demonstrating the "Guardrail -> Execution" pipeline with logs showing the internal decision-making process.

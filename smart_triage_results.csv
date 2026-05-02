@@ -1,0 +1,34 @@
+Email,Category,Sentiment_Score,Order_ID,Action,Reply
+"Hi, I want to return my headphones. Order ID: TG12345. They stopped working after a week.",Refund,4,TG12345,Respond,"Dear Customer,
+
+Thank you for reaching out. We're sorry to hear that your headphones stopped working after a week. To assist you with the return, please provide us with your preferred return method or let us know if you would like a replacement or refund. We will guide you through the next steps promptly.
+
+Best regards,  
+[Your Name]  
+Customer Service Team"
+"Hello, can you help me set up my new keyboard? I can't get the RGB lights to work.",Tech Support,6,N/A,Respond,"Dear Customer,
+
+Thank you for reaching out. To enable the RGB lights on your new keyboard, please ensure that the keyboard is properly connected to your computer and that any required software or drivers are installed. You can download the latest software from our website’s support page. Once installed, use the software to customize and activate the RGB lighting.
+
+If you continue to experience issues, please let us know your keyboard model and operating system, and we will be happy to assist further.
+
+Best regards,  
+[Your Name]  
+Customer Support Team"
+Where is my order TG54321? It was supposed to arrive yesterday.,General,4,TG54321,Respond,"Dear Customer,
+
+Thank you for reaching out. We apologize for the delay with your order TG54321. We are currently looking into its status and will provide you with an update shortly.
+
+Thank you for your patience.
+
+Best regards,  
+[Your Name]  
+Customer Service Team"
+This is ridiculous! My laptop (Order TG99999) arrived damaged and no one is responding. I am extremely angry and want a refund NOW!,Refund,2,TG99999,Escalate,ALERT: Escalating to Human Manager.
+Do you offer discounts for bulk purchases of gaming mice?,General,6,N/A,Respond,"Dear Customer,
+
+Thank you for your inquiry. Yes, we do offer discounts on bulk purchases of gaming mice. Please let us know the quantity you are interested in, and we will provide you with detailed pricing and options.
+
+Best regards,  
+[Your Name]  
+[Your Company] Customer Service Team"

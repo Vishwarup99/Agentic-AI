@@ -1,0 +1,37 @@
+INDUSTRIAL HYDRAULIC PRESS SYSTEM
+OPERATION AND MAINTENANCE MANUAL
+
+SECTION 1: INTRODUCTION
+The industrial hydraulic press system is designed for high-pressure metal forming operations. It operates using hydraulic fluid to generate compressive force. The system includes a pressure valve, control panel, hydraulic pump, reservoir tank, and safety release mechanisms.
+
+SECTION 2: SAFETY PRECAUTIONS
+Before operating the machine, ensure all safety guards are in place. Operators must wear protective equipment including gloves and eye protection. Never exceed the maximum pressure rating specified on the control panel. In case of emergency, press the red emergency stop button located on the front panel.
+
+SECTION 3: SYSTEM COMPONENTS
+The system consists of the following components:
+1. Hydraulic Pump – Generates fluid pressure.
+2. Pressure Valve – Regulates system pressure.
+3. Control Panel – Used for input and monitoring.
+4. Reservoir Tank – Stores hydraulic fluid.
+5. Actuator Cylinder – Applies force to the material.
+
+SECTION 4: STARTUP PROCEDURE
+To start the machine, ensure the reservoir tank is filled with hydraulic oil. Turn on the main power switch located on the rear panel. Wait for the system to initialize. Set the desired pressure level using the control panel. Press the green start button to begin operation.
+
+SECTION 5: NORMAL OPERATION
+During operation, monitor the pressure gauge continuously. Ensure that the pressure remains within the safe operating range. Adjust the pressure valve if necessary to maintain stable operation. Avoid sudden changes in pressure as it may damage internal components.
+
+SECTION 6: PRESSURE VALVE RESET PROCEDURE
+To reset the pressure valve, first turn off the machine using the main power switch. Allow the system pressure to drop to zero by releasing residual pressure through the safety release valve. Locate the pressure valve adjustment knob on the side of the unit. Rotate the knob counterclockwise بالكامل until it reaches the default position. After resetting, turn the knob clockwise slowly to set the desired pressure level. Restart the system and verify the pressure reading on the control panel.
+
+SECTION 7: MAINTENANCE
+Routine maintenance should be performed every 100 operating hours. Check hydraulic fluid levels and refill if necessary. Inspect hoses and connections for leaks. Clean filters regularly to prevent clogging. Replace worn-out components immediately.
+
+SECTION 8: TROUBLESHOOTING
+If the machine does not start, check the power supply and ensure the emergency stop button is not engaged. If pressure is unstable, inspect the pressure valve and hydraulic pump. Low pressure may indicate fluid leakage or pump failure.
+
+SECTION 9: SHUTDOWN PROCEDURE
+To safely shut down the system, reduce the pressure to minimum using the control panel. Turn off the machine using the main power switch. Disconnect power supply if the machine will not be used for an extended period.
+
+SECTION 10: NOTES
+Always follow manufacturer guidelines for operation and maintenance. Unauthorized modifications to the system may result in failure or injury.
